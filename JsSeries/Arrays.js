@@ -16,12 +16,12 @@ arr.unshift(9)
 arr.shift()
 // console.log(arr);
 
-// console.log(arr.includes(3));
-// console.log(arr.indexOf(5));
-// console.log(arr.indexOf(20));
+console.log(arr.includes(3));
+console.log(arr.indexOf(5));
+console.log(arr.indexOf(20));
 
 console.log("A ", arr);
-// Slice method give the result range between 1 to 4 it means that inculding 1 but excluding 4 and original array can not changed.
+// // Slice method give the result range between 1 to 4 it means that inculding 1 but excluding 4 and original array can not changed.
 console.log(arr.slice(1, 4));
 console.log("B ", arr);
 
@@ -29,3 +29,5 @@ console.log("B ", arr);
 console.log(arr.splice(1, 4));
 console.log("C", arr);
 
+// This method converts array to strings
+console.log(arr.toLocaleString());
