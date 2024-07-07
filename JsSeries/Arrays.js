@@ -31,5 +31,8 @@ console.log("B ", arr);
 console.log(arr.splice(1, 4));
 console.log("C", arr);
 
-// This method converts array to strings
+//toLocaleString:- This method converts array to string type.
 console.log(arr.toLocaleString());
+
+//from:- This method convert string to array format.
+console.log(Array.from("Shivam"));
